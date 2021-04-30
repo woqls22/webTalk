@@ -12,7 +12,7 @@ const KaKaoWebTalk = () => {
   const [text,setText]=useState("");
   const [sendHistory, setSendHistory]=useState([]);
   useEffect(() => {
-    window.Kakao.init("6e207371ce16542f710c92c1a8161837");
+    window.Kakao.init("****");
     console.log(window.Kakao.isInitialized());
   }, []);
   const fetchFriendList = () => {
